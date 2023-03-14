@@ -1,0 +1,53 @@
+.resultImg {
+  height: 200px;
+}
+
+.results_div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.user_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 20px;
+}
+.play_again {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.playAgain {
+  background-color: #fff;
+  color: #223a5f;
+  font-family: Bree Serif;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.resultMsg {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .resultImg {
+    height: 110px;
+  }
+
+  .play_again {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
